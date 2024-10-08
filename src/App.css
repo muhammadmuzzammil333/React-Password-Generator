@@ -1,0 +1,83 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(45, 45, 45);
+  color: white;
+  /* text-align: center; */
+}
+
+h1{
+  margin-top: 10vh;
+  text-align: center;
+
+}
+
+
+#Container {
+  padding-top: 40vh;
+}
+
+.containerDiv1{
+  text-align: center;
+}
+
+.containerDiv1 input {
+  width: 80vh;
+  height: 6vh;
+  font-size: 20px;
+  padding-left: 2vh;
+  border: none;
+  outline: none;
+  border-top-left-radius: 2vh;
+  border-bottom-left-radius: 2vh;
+  color: rgb(215, 150, 30);
+  font-weight: 600;
+}
+
+.containerDiv1 button{
+  height: 42px;
+  width: 15vh;
+  border: none;
+  outline: none;
+  text-align: center;
+  cursor: pointer;
+  background-color: rgb(11, 11, 145);
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  border-top-right-radius: 2vh;
+  border-bottom-right-radius: 2vh;
+}
+
+.containerDiv2{
+  margin-top: 30px;
+  margin-left: 60vh;
+}
+
+.containerDiv2 #rangeLabel {
+    width: 30vh;
+}
+
+.containerDiv2 .label1{
+  margin-left: 5px;
+}
+
+.containerDiv2 input{
+  cursor: pointer;
+}
+
+.containerDiv2 .label1, .label2, .label3{
+  margin-right: 20px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.containerDiv2 #numberLabel, #characterLabel{
+ width: 5vh;
+ height: 2vh;
+}
+
